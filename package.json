@@ -1,0 +1,18 @@
+{
+  "name": "sass-own-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass -w sass:src/css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.59.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}

@@ -1,0 +1,79 @@
+@import "config";
+
+body {
+    background-color: rgb(116, 116, 160);
+    
+}
+
+.nav-bar {
+    background-color: rgb(202, 25, 25);
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    padding: 1rem;
+    a {
+        text-decoration: none;
+        color:  #000;
+
+    }
+}
+
+.card-container {
+    width: fit-content;
+    padding: 0.3rem;
+    display: grid;
+    grid-gap: 2px;
+    justify-content: start;
+    align-content:center;
+    grid-template-columns: repeat(6,1fr);
+    border: 0.3rem rgb(78, 78, 78) solid;
+}
+
+.card-body{
+    display: flex;
+    width: 20vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: aqua;
+    align-items: center;
+    border: 0.2rem #000 solid;
+    border-radius: 0.5rem;
+    h3{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        
+    }
+
+    .card-text-big {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .card-data-container {
+        color:#000;
+        width: fit-content;
+        padding-left: $fixed-padding;
+        margin: 0.3rem;
+        display: block;
+    }
+
+    .card-image-container {
+        margin: 0.3rem;
+        background-color: bisque;
+        border: 0.3rem #000 solid;
+    }
+    
+    .card-image {
+        width: 100%;
+        height: 100%;
+    }
+    
+
+}
+
+.card-Container{
+    background-color: lightblue;
+}
+
+@import "mobile"
