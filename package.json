@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://heikkimustonen.github.io/sass-own-project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass -w sass:src/css/"
+    "sass": "sass -w sass:src/css/",
+    "deploy": "gh-pages -d src"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "sass": "^1.59.3"
   },
   "devDependencies": {
